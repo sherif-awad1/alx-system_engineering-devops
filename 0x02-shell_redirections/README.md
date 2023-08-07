@@ -5,3 +5,4 @@ first command echo
 5th command tail path
 6th command head
  7th command head -n num file | tail -n num
+8th command echo and \befor the spicial
