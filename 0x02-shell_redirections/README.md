@@ -4,3 +4,4 @@ first command echo
 4th command cat file path file path
 5th command tail path
 6th command head
+ 7th command head -n num file | tail -n num
