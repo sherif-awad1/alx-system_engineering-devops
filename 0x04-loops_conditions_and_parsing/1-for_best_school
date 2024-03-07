@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# print Best School 10 time
 TEN=$(seq 10)
 
 for _ in $TEN
