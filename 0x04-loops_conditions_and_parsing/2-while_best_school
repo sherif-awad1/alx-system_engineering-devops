@@ -1,1 +1,10 @@
 #!/usr/bin/env bash
+# print best school 10 time use while
+
+i=0
+
+while [ $i -lt 10 ]
+do
+	echo "Best School" &
+	((i++))
+done
