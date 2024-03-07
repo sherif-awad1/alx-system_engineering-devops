@@ -1,1 +1,8 @@
 #!/usr/bin/env bash
+
+TEN=$(seq 10)
+
+for _ in $TEN
+do
+	echo "Best School"
+done
