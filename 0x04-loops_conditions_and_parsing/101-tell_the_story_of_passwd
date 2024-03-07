@@ -1,1 +1,9 @@
 #!/usr/bin/env bash
+#the content of the file /etc/passwd, using the while loop + IFS.
+
+FILE=/etc/passwd
+
+while IFS=':' read -r Part1 Part2 Part3 Part4 Part5 Part6 Part7
+do
+  echo "The user $Part1 is part of the $Part4 gang, lives in $Part6 and rides $Part7. $Part3's place is protected by the passcode $Part2, more info about the user here: $Part5"
+done < "$FILE"
