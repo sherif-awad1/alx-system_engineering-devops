@@ -1,6 +1,6 @@
 # Simple Web Stack
 
-![https://github.com/sherif-awad1/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/0-simple_web_stack.PNG](0-simple_web_stack.PNG)
+
 
 
 ## Description
